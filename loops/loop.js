@@ -11,15 +11,25 @@
 // }
 
 
-let n = Number(prompt("Enter the number :"))
+// let n = Number(prompt("Enter the number :"))
 
-if(isNaN(n)){
-    console.log("invalid input");  // bcz we can't convert string to a number...so it return nan
-}else{
-    let i;
-    for(i=1;i<=n;i++){
-        console.log("Hello world!");
-    }
-    console.log("fail at ",i);
+// if(isNaN(n)){
+//     console.log("invalid input");  // bcz we can't convert string to a number...so it return nan
+// }else{
+//     let i;
+//     for(i=1;i<=n;i++){
+//         console.log("Hello world!");
+//     }
+//     console.log("fail at ",i);
+    
+// }
+
+
+
+// Take input from a user and print table
+
+let num = Number(prompt("Enter the number : "))
+for(let i = 1;i<=10;i++){
+    console.log(`${num}*${i} = ${num*i}`);
     
 }
