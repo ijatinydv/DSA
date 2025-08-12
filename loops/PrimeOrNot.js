@@ -14,7 +14,7 @@ let num = Number(prompt("Enter a number : "))
 // if 2 se lekar sqrt(num) tkk koi bhi number agar num ko divisible nhi krr paya toh koi isko divide nhi kr skta
 
 
-// best approach 
+// best approach - that is good
 
 let isPrime = isPrimeFun(num);
 console.log(isPrime? "Prime number" : "not a prime number")
