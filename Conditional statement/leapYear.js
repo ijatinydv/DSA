@@ -14,3 +14,4 @@ if(year%4==0){
 
 console.log(isLeap? "Leap year" : "not a leap year");
 
+// for a leap year a year divisible by 400 and 4 is a leap year and if a year is divisible by 100 then it should be divisible by 400
