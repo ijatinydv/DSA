@@ -1,0 +1,1 @@
+console.log(Math.floor(1582/10))
