@@ -1,0 +1,1 @@
+// array -> Array is a linear data structure which store multiples value in continuous memory allocation.
